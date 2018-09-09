@@ -16,7 +16,7 @@ tags:
 
 其中需要注意的是：
 
-##### 1.添加pom.xml依赖：
+* 1.添加pom.xml依赖：
 
         <!--web 支持-->
             <dependency>
@@ -36,14 +36,15 @@ tags:
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
         </dependency>
-##### 2.application.properties中添加：
+		
+* 2.application.properties中添加：
 
 ```
 spring.mvc.view.prefix = /WEB-INF/views/
 spring.mvc.view.suffix = .jsp
 ```
 
-##### 3.还有一个很重要的地方,就是controller的设置，这里对应着@Controller
+* 3.还有一个很重要的地方,就是controller的设置，这里对应着@Controller
 @RequestMapping(value = "/test")，而不是GetMapping，GetMapping是rest服务调用，而不是页面跳转：
 
 ```
@@ -77,10 +78,10 @@ public class MyController {
 }
 ```
 
-##### 4.具体项目结构如下：
+* 4.具体项目结构如下：
 
-![1536464983477](C:\Users\ghy\AppData\Local\Temp\1536464983477.png)
+![1536464983477](img/book/pringbootweb.PNG)
 
-##### 5.访问路径：http://localhost:8080/test/hello
+* 5.访问路径：http://localhost:8080/test/hello
 
 其中：第三点很重要。
