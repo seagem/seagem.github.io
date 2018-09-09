@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "基于spring boot搭建web项目一"
+title:      "基于spring boot搭建web项目（一）"
 subtitle:   "主要是完成页面的访问"
 date:       2017-03-15 21:20:00
 author:     "gehaiyang"
@@ -80,4 +80,5 @@ public class MyController {
 
 * 其中：第三点很重要。
 
+##### 6.源码链接
 [源码链接](https://github.com/seagem/Knowledge/tree/master/Projects/spring-cloud/demoweb)
