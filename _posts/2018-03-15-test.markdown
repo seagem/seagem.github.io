@@ -9,4 +9,38 @@ catalog: true
 tags:
     - test
 ---
-* Hi......
+* 由于githubpage上的markdown语法支持的不要，所以简单列出经常使用的样式
+# hello
+## hello
+### hello
+
+超大标题
+===
+
+标题
+---
+
+* 行内代码：
+`hello`
+
+* 无序列表如下
+* Red
+* Green
+* Blue
+
+- Red
+- Green
+- Blue
+
++ Red
++ Green
++ Blue
+
+* 内容加粗：
+*内容*
+**内容**
+_内容_
+__内容__
+
+* 图片引用：
+![这是张图片](/img/book/pringbootweb.png)
