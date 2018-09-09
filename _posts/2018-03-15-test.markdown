@@ -17,11 +17,15 @@ tags:
 超大标题
 ===
 
+
+
 标题
 ---
 
+
 * 行内代码：
-`hello`
+  `hello`
+
 
 * 无序列表如下
 * Red
@@ -36,11 +40,13 @@ tags:
 + Green
 + Blue
 
+
 * 内容加粗：
 *内容*
 **内容**
 _内容_
 __内容__
 
+
 * 图片引用：
-![这是张图片](/img/book/pringbootweb.png)
+![这是张图片](/img/pringbootweb.png)

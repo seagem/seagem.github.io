@@ -12,12 +12,11 @@ tags:
 
 > 先考虑最简单的实现，再斟酌使用设计模式。
 
-#參考： https://www.cnblogs.com/sxdcgaq8080/p/7712874.html
-
+* 參考： https://www.cnblogs.com/sxdcgaq8080/p/7712874.html
+* 
 其中需要注意的是：
 
-* 1.添加pom.xml依赖：
-
+##### 1.添加pom.xml依赖：
         <!--web 支持-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -29,24 +28,22 @@ tags:
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-    
+        
         <!--用于编译jsp-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
         </dependency>
-		
-* 2.application.properties中添加：
 
+##### 2.application.properties中添加：
 ```
 spring.mvc.view.prefix = /WEB-INF/views/
 spring.mvc.view.suffix = .jsp
 ```
 
-* 3.还有一个很重要的地方,就是controller的设置，这里对应着@Controller
+##### 3.还有一个很重要的地方,就是controller的设置，这里对应着@Controller
 @RequestMapping(value = "/test")，而不是GetMapping，GetMapping是rest服务调用，而不是页面跳转：
-
 ```
 package demoweb.demo;
 
@@ -78,10 +75,9 @@ public class MyController {
 }
 ```
 
-* 4.具体项目结构如下：
+##### 4.具体项目结构如下：
+![1536464983477](img/pringbootweb.PNG)
 
-![1536464983477](img/book/pringbootweb.PNG)
+##### 5.访问路径：http://localhost:8080/test/hello
 
-* 5.访问路径：http://localhost:8080/test/hello
-
-其中：第三点很重要。
+* 其中：第三点很重要。
