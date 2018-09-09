@@ -10,8 +10,6 @@ tags:
     - spring boot
 ---
 
-> 先考虑最简单的实现，再斟酌使用设计模式。
-
 * 參考： https://www.cnblogs.com/sxdcgaq8080/p/7712874.html
 * 
 其中需要注意的是：
