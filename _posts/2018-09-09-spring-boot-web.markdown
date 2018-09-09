@@ -76,7 +76,7 @@ public class MyController {
 ```
 
 ##### 4.具体项目结构如下：
-![1536464983477](img/pringbootweb.png)
+![1536464983477](/img/pringbootweb.png)
 
 ##### 5.访问路径：http://localhost:8080/test/hello
 
