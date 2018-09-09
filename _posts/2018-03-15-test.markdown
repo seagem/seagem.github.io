@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "HELLO WORLD"
-subtitle:   "NICE TO MEET YOU."
+title:      "Hello World"
+subtitle:   "nice to meet you."
 date:       2017-03-15 21:20:00
 author:     "gehaiyang"
 header-img: "img/post-bg-design-patterns.jpg"
 catalog: true
 tags:
-    - TEST
+    - test
 ---
-# HI.
+### Hi......
