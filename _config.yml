@@ -87,9 +87,9 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "gehaiyang",
-        href: "www.seagem.top"
-    }
-]
+#friends: [
+#    {
+#       title: "gehaiyang",
+#        href: "www.seagem.top"
+#    }
+#]
